@@ -4,8 +4,8 @@ const crypto = require("crypto");
 const router = express.Router();
 
 // Merchant details
-const merchant_id = "1228821"; 
-const merchant_secret = "Mjc2NDE1NDcyNTEzMjY4MDc5NTc5MDM3OTYwMjEyNDA4MTUzNTg4"; 
+const merchant_id = "1228901"; 
+const merchant_secret = "MjEyOTYwOTc0OTU5NDE2OTU1OTI3NTM4MDQzMzA0MjgyMTQyMzM4"; 
 
 router.post("/start", (req, res) => {
   const { order_id, amount, currency } = req.body;
